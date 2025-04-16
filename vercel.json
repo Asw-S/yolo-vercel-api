@@ -6,6 +6,10 @@
       }
     },
     "routes": [
+        { "src":"/", "dest":"/"},
+        {
+            "src":"/detect","dest":"/"
+        },
       { "src": "/detect", "dest": "api/detect.py" }
     ]
   }
