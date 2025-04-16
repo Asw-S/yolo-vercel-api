@@ -1,7 +1,11 @@
 {
+  "version": 2,
   "functions": {
-    "api/*.py": {
+    "api/detect.py": {
       "runtime": "python3.9"
     }
-  }
+  },
+  "routes": [
+    { "src": "/detect", "dest": "api/detect.py" }
+  ]
 }
