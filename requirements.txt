@@ -1,2 +1,2 @@
-torch
-pillow
+numpy
+opencv-python
