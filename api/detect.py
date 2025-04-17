@@ -13,7 +13,7 @@ def handler(request):
 
     try:
         data = request.body
-        image = Image.open(io.BytesIO(data))
+        image = Image.open(io.BytesIO(data)) 
         results = model(image)
         detections = results.pandas().xyxy[0].to_dict(orient="records")
         return {
