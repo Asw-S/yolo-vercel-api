@@ -1,2 +1,6 @@
 numpy
 opencv-python
+torch 
+torchvision 
+pillow 
+pandas
